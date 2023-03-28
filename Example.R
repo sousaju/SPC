@@ -31,7 +31,7 @@ X = X[c(21:40, 1:20), ] # reordering the rows so that controls are first, then p
 
 # Performing PLS-DA on SPCs
 source("selectLR.R")
-source("PLSDAonSPC.R")
+source("PLSDAwSPC.R")
 
 plsda = PLSDAonSPC(X = X, N1 = 20)
 
