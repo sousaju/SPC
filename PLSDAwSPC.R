@@ -16,6 +16,8 @@ PLSDAonSPC = function(X, N1, xi = 0.1){
   #                  (-1 for significantly decreased in patients, 0 for non-significant, 1 for significantly increased in patients);
   #         SL - output from "selectLR" function
 
+  source("selectLR.R")
+  
   D = ncol(X)
   N = nrow(X)
   cn = colnames(X)
